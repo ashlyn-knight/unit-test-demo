@@ -1,0 +1,171 @@
+Loading Zephyr default modules (Zephyr base).
+-- Application: /home/aknight/zephyrproject/app/ztest
+-- Found Python3: /usr/bin/python3.8 (found suitable exact version "3.8.10") found components: Interpreter 
+-- Cache files will be written to: /home/aknight/.cache/zephyr
+-- Zephyr version: 3.0.99 (/home/aknight/zephyrproject/zephyr)
+-- Found west (found suitable version "0.13.1", minimum required is "0.7.1")
+-- Board: native_posix
+-- Found dtc: /usr/bin/dtc (found suitable version "1.5.0", minimum required is "1.4.6")
+-- Found toolchain: host (gcc/ld)
+-- Found BOARD.dts: /home/aknight/zephyrproject/zephyr/boards/posix/native_posix/native_posix.dts
+-- Generated zephyr.dts: /home/aknight/zephyrproject/twister-out/native_posix/testing.ztest/zephyr/zephyr.dts
+-- Generated devicetree_unfixed.h: /home/aknight/zephyrproject/twister-out/native_posix/testing.ztest/zephyr/include/generated/devicetree_unfixed.h
+-- Generated device_extern.h: /home/aknight/zephyrproject/twister-out/native_posix/testing.ztest/zephyr/include/generated/device_extern.h
+-- Including generated dts.cmake file: /home/aknight/zephyrproject/twister-out/native_posix/testing.ztest/zephyr/dts.cmake
+Parsing /home/aknight/zephyrproject/zephyr/Kconfig
+Loaded configuration '/home/aknight/zephyrproject/zephyr/boards/posix/native_posix/native_posix_defconfig'
+Merged configuration '/home/aknight/zephyrproject/app/ztest/prj.conf'
+Configuration saved to '/home/aknight/zephyrproject/twister-out/native_posix/testing.ztest/zephyr/.config'
+Kconfig header saved to '/home/aknight/zephyrproject/twister-out/native_posix/testing.ztest/zephyr/include/generated/autoconf.h'
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /usr/bin/gcc
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aknight/zephyrproject/twister-out/native_posix/testing.ztest
+[  1%] Generating misc/generated/syscalls.json, misc/generated/struct_tags.json
+[  3%] Built target parse_syscalls_target
+[  4%] Generating include/generated/kobj-types-enum.h, include/generated/otype-to-str.h, include/generated/otype-to-size.h
+[  4%] Built target kobj_types_h_target
+[  5%] Generating include/generated/syscall_dispatch.c, include/generated/syscall_list.h
+[  5%] Built target syscall_list_h_target
+[  6%] Generating include/generated/driver-validation.h
+[  6%] Built target driver_validation_h_target
+[  6%] Building C object zephyr/CMakeFiles/offsets.dir/arch/posix/core/offsets/offsets.c.obj
+[  6%] Built target offsets
+[  7%] Generating include/generated/offsets.h
+[  7%] Built target offsets_h
+[  8%] Generating include/generated/version.h
+-- Zephyr version: 3.0.99 (/home/aknight/zephyrproject/zephyr), build: zephyr-v3.0.0-3581-g99be4358afcc
+[  8%] Built target version_h
+[  8%] Built target zephyr_generated_headers
+[  8%] Building CXX object CMakeFiles/app.dir/home/aknight/zephyrproject/app/src/math.cpp.obj
+[  9%] Building CXX object CMakeFiles/app.dir/src/mock.cpp.obj
+[ 10%] Building CXX object CMakeFiles/app.dir/src/test_assert.cpp.obj
+[ 11%] Building CXX object CMakeFiles/app.dir/src/test_math.cpp.obj
+[ 12%] Building CXX object CMakeFiles/app.dir/src/test_mock.cpp.obj
+[ 12%] Linking CXX static library app/libapp.a
+[ 12%] Built target app
+[ 13%] Building C object zephyr/CMakeFiles/zephyr.dir/lib/os/cbprintf.c.obj
+[ 14%] Building C object zephyr/CMakeFiles/zephyr.dir/lib/os/cbprintf_packaged.c.obj
+[ 14%] Building C object zephyr/CMakeFiles/zephyr.dir/lib/os/crc32c_sw.c.obj
+[ 15%] Building C object zephyr/CMakeFiles/zephyr.dir/lib/os/crc32_sw.c.obj
+[ 16%] Building C object zephyr/CMakeFiles/zephyr.dir/lib/os/crc16_sw.c.obj
+[ 17%] Building C object zephyr/CMakeFiles/zephyr.dir/lib/os/crc8_sw.c.obj
+[ 18%] Building C object zephyr/CMakeFiles/zephyr.dir/lib/os/crc7_sw.c.obj
+[ 18%] Building C object zephyr/CMakeFiles/zephyr.dir/lib/os/dec.c.obj
+[ 19%] Building C object zephyr/CMakeFiles/zephyr.dir/lib/os/fdtable.c.obj
+[ 20%] Building C object zephyr/CMakeFiles/zephyr.dir/lib/os/hex.c.obj
+[ 21%] Building C object zephyr/CMakeFiles/zephyr.dir/lib/os/notify.c.obj
+[ 22%] Building C object zephyr/CMakeFiles/zephyr.dir/lib/os/printk.c.obj
+[ 22%] Building C object zephyr/CMakeFiles/zephyr.dir/lib/os/onoff.c.obj
+[ 23%] Building C object zephyr/CMakeFiles/zephyr.dir/lib/os/rb.c.obj
+[ 24%] Building C object zephyr/CMakeFiles/zephyr.dir/lib/os/sem.c.obj
+[ 25%] Building C object zephyr/CMakeFiles/zephyr.dir/lib/os/thread_entry.c.obj
+[ 26%] Building C object zephyr/CMakeFiles/zephyr.dir/lib/os/timeutil.c.obj
+[ 26%] Building C object zephyr/CMakeFiles/zephyr.dir/lib/os/heap.c.obj
+[ 27%] Building C object zephyr/CMakeFiles/zephyr.dir/lib/os/heap-validate.c.obj
+[ 28%] Building C object zephyr/CMakeFiles/zephyr.dir/lib/os/bitarray.c.obj
+[ 29%] Building C object zephyr/CMakeFiles/zephyr.dir/lib/os/multi_heap.c.obj
+[ 30%] Building C object zephyr/CMakeFiles/zephyr.dir/lib/os/cbprintf_complete.c.obj
+[ 30%] Building C object zephyr/CMakeFiles/zephyr.dir/lib/os/assert.c.obj
+[ 31%] Building C object zephyr/CMakeFiles/zephyr.dir/lib/os/mpsc_pbuf.c.obj
+[ 32%] Building C object zephyr/CMakeFiles/zephyr.dir/misc/generated/configs.c.obj
+[ 34%] Building C object zephyr/CMakeFiles/zephyr.dir/subsys/logging/log_list.c.obj
+[ 35%] Building C object zephyr/CMakeFiles/zephyr.dir/subsys/logging/log_core.c.obj
+[ 35%] Building C object zephyr/CMakeFiles/zephyr.dir/subsys/logging/log_mgmt.c.obj
+[ 36%] Building C object zephyr/CMakeFiles/zephyr.dir/subsys/logging/log_msg.c.obj
+[ 37%] Building C object zephyr/CMakeFiles/zephyr.dir/subsys/logging/log_output.c.obj
+[ 38%] Building C object zephyr/CMakeFiles/zephyr.dir/subsys/logging/log_msg2.c.obj
+[ 39%] Building C object zephyr/CMakeFiles/zephyr.dir/subsys/logging/log_backend_native_posix.c.obj
+[ 39%] Building C object zephyr/CMakeFiles/zephyr.dir/subsys/cpp/cpp_init.c.obj
+[ 40%] Building C object zephyr/CMakeFiles/zephyr.dir/subsys/cpp/cpp_init_array.c.obj
+[ 41%] Building C object zephyr/CMakeFiles/zephyr.dir/subsys/cpp/cpp_ctors.c.obj
+[ 42%] Building C object zephyr/CMakeFiles/zephyr.dir/subsys/cpp/cpp_dtors.c.obj
+[ 43%] Building C object zephyr/CMakeFiles/zephyr.dir/subsys/cpp/cpp_virtual.c.obj
+[ 43%] Building CXX object zephyr/CMakeFiles/zephyr.dir/subsys/cpp/cpp_vtable.cpp.obj
+[ 44%] Building CXX object zephyr/CMakeFiles/zephyr.dir/subsys/cpp/cpp_new.cpp.obj
+[ 45%] Building C object zephyr/CMakeFiles/zephyr.dir/subsys/tracing/tracing_none.c.obj
+[ 46%] Linking CXX static library libzephyr.a
+[ 46%] Built target zephyr
+[ 47%] Building C object zephyr/kernel/CMakeFiles/kernel.dir/main_weak.c.obj
+[ 48%] Building C object zephyr/kernel/CMakeFiles/kernel.dir/banner.c.obj
+[ 49%] Building C object zephyr/kernel/CMakeFiles/kernel.dir/device.c.obj
+[ 50%] Building C object zephyr/kernel/CMakeFiles/kernel.dir/errno.c.obj
+[ 50%] Building C object zephyr/kernel/CMakeFiles/kernel.dir/fatal.c.obj
+[ 51%] Building C object zephyr/kernel/CMakeFiles/kernel.dir/init.c.obj
+[ 52%] Building C object zephyr/kernel/CMakeFiles/kernel.dir/kheap.c.obj
+[ 53%] Building C object zephyr/kernel/CMakeFiles/kernel.dir/mem_slab.c.obj
+[ 54%] Building C object zephyr/kernel/CMakeFiles/kernel.dir/thread.c.obj
+[ 54%] Building C object zephyr/kernel/CMakeFiles/kernel.dir/version.c.obj
+[ 55%] Building C object zephyr/kernel/CMakeFiles/kernel.dir/idle.c.obj
+[ 56%] Building C object zephyr/kernel/CMakeFiles/kernel.dir/mailbox.c.obj
+[ 57%] Building C object zephyr/kernel/CMakeFiles/kernel.dir/msg_q.c.obj
+[ 58%] Building C object zephyr/kernel/CMakeFiles/kernel.dir/mutex.c.obj
+[ 58%] Building C object zephyr/kernel/CMakeFiles/kernel.dir/pipes.c.obj
+[ 59%] Building C object zephyr/kernel/CMakeFiles/kernel.dir/queue.c.obj
+[ 60%] Building C object zephyr/kernel/CMakeFiles/kernel.dir/sem.c.obj
+[ 61%] Building C object zephyr/kernel/CMakeFiles/kernel.dir/stack.c.obj
+[ 62%] Building C object zephyr/kernel/CMakeFiles/kernel.dir/system_work_q.c.obj
+[ 62%] Building C object zephyr/kernel/CMakeFiles/kernel.dir/work.c.obj
+[ 63%] Building C object zephyr/kernel/CMakeFiles/kernel.dir/sched.c.obj
+[ 64%] Building C object zephyr/kernel/CMakeFiles/kernel.dir/condvar.c.obj
+[ 65%] Building C object zephyr/kernel/CMakeFiles/kernel.dir/timeout.c.obj
+[ 67%] Building C object zephyr/kernel/CMakeFiles/kernel.dir/timer.c.obj
+[ 67%] Building C object zephyr/kernel/CMakeFiles/kernel.dir/mempool.c.obj
+[ 68%] Linking C static library libkernel.a
+[ 68%] Built target kernel
+[ 69%] Generating linker_zephyr_pre0.cmd
+[ 69%] Built target linker_zephyr_pre0_script
+[ 70%] Building C object zephyr/arch/arch/posix/core/CMakeFiles/arch__posix__core.dir/cpuhalt.c.obj
+[ 71%] Building C object zephyr/arch/arch/posix/core/CMakeFiles/arch__posix__core.dir/fatal.c.obj
+[ 72%] Building C object zephyr/arch/arch/posix/core/CMakeFiles/arch__posix__core.dir/irq.c.obj
+[ 73%] Building C object zephyr/arch/arch/posix/core/CMakeFiles/arch__posix__core.dir/posix_core.c.obj
+[ 73%] Building C object zephyr/arch/arch/posix/core/CMakeFiles/arch__posix__core.dir/swap.c.obj
+[ 74%] Building C object zephyr/arch/arch/posix/core/CMakeFiles/arch__posix__core.dir/thread.c.obj
+[ 75%] Linking C static library libarch__posix__core.a
+[ 75%] Built target arch__posix__core
+[ 75%] Building C object zephyr/soc/posix/inf_clock/CMakeFiles/soc__posix__inf_clock.dir/soc.c.obj
+[ 76%] Linking C static library libsoc__posix__inf_clock.a
+[ 76%] Built target soc__posix__inf_clock
+[ 77%] Building C object zephyr/boards/posix/native_posix/CMakeFiles/boards__posix__native_posix.dir/hw_models_top.c.obj
+[ 77%] Building C object zephyr/boards/posix/native_posix/CMakeFiles/boards__posix__native_posix.dir/timer_model.c.obj
+[ 78%] Building C object zephyr/boards/posix/native_posix/CMakeFiles/boards__posix__native_posix.dir/native_rtc.c.obj
+[ 79%] Building C object zephyr/boards/posix/native_posix/CMakeFiles/boards__posix__native_posix.dir/irq_handler.c.obj
+[ 80%] Building C object zephyr/boards/posix/native_posix/CMakeFiles/boards__posix__native_posix.dir/irq_ctrl.c.obj
+[ 81%] Building C object zephyr/boards/posix/native_posix/CMakeFiles/boards__posix__native_posix.dir/main.c.obj
+[ 81%] Building C object zephyr/boards/posix/native_posix/CMakeFiles/boards__posix__native_posix.dir/tracing.c.obj
+[ 82%] Building C object zephyr/boards/posix/native_posix/CMakeFiles/boards__posix__native_posix.dir/cmdline_common.c.obj
+[ 83%] Building C object zephyr/boards/posix/native_posix/CMakeFiles/boards__posix__native_posix.dir/cmdline.c.obj
+[ 84%] Building C object zephyr/boards/posix/native_posix/CMakeFiles/boards__posix__native_posix.dir/cpu_wait.c.obj
+[ 85%] Building C object zephyr/boards/posix/native_posix/CMakeFiles/boards__posix__native_posix.dir/hw_counter.c.obj
+[ 85%] Linking C static library libboards__posix__native_posix.a
+[ 85%] Built target boards__posix__native_posix
+[ 86%] Building C object zephyr/subsys/testsuite/ztest/CMakeFiles/subsys__testsuite__ztest.dir/src/ztest_new.c.obj
+[ 87%] Building C object zephyr/subsys/testsuite/ztest/CMakeFiles/subsys__testsuite__ztest.dir/src/ztest_error_hook.c.obj
+[ 88%] Building C object zephyr/subsys/testsuite/ztest/CMakeFiles/subsys__testsuite__ztest.dir/src/ztest_rules.c.obj
+[ 88%] Linking C static library libsubsys__testsuite__ztest.a
+[ 88%] Built target subsys__testsuite__ztest
+[ 89%] Building C object zephyr/drivers/console/CMakeFiles/drivers__console.dir/native_posix_console.c.obj
+[ 90%] Linking C static library libdrivers__console.a
+[ 90%] Built target drivers__console
+[ 91%] Building C object zephyr/drivers/timer/CMakeFiles/drivers__timer.dir/sys_clock_init.c.obj
+[ 92%] Building C object zephyr/drivers/timer/CMakeFiles/drivers__timer.dir/native_posix_timer.c.obj
+[ 93%] Linking C static library libdrivers__timer.a
+[ 93%] Built target drivers__timer
+[ 94%] Building C object zephyr/CMakeFiles/zephyr_pre0.dir/misc/empty_file.c.obj
+[ 94%] Linking CXX executable zephyr_pre0.elf
+Logical command for additional byproducts on target: zephyr_pre0
+
+[ 94%] Built target zephyr_pre0
+[ 95%] Generating linker_zephyr_pre1.cmd
+[ 95%] Built target linker_zephyr_prebuilt_script_target
+[ 96%] Generating dev_handles.c
+[ 97%] Building C object zephyr/CMakeFiles/zephyr_pre1.dir/misc/empty_file.c.obj
+[ 98%] Building C object zephyr/CMakeFiles/zephyr_pre1.dir/dev_handles.c.obj
+[100%] Linking CXX executable zephyr.elf
+Logical command for additional byproducts on target: zephyr_pre1
+
+Generating files from zephyr.elf for board: native_posix
+[100%] Built target zephyr_pre1

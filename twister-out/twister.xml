@@ -1,0 +1,1 @@
+<testsuites><testsuite name="native_posix" time="2.026905" tests="1" failures="0" errors="0" skipped="0"><properties><property name="version" value="zephyr-v3.0.0-3581-g99be4358afcc" /></properties><testcase classname="native_posix:testing.ztest" name="testing.ztest" time="2.026905" /></testsuite></testsuites>

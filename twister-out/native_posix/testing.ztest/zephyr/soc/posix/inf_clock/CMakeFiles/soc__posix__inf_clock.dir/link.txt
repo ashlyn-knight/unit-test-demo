@@ -1,0 +1,2 @@
+ccache /usr/bin/ar qc libsoc__posix__inf_clock.a CMakeFiles/soc__posix__inf_clock.dir/soc.c.obj
+ccache /usr/bin/ranlib libsoc__posix__inf_clock.a

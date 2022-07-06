@@ -1,0 +1,4 @@
+tests:
+  testing.ztest:
+    platform_allow: native_posix
+    tags: common

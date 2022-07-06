@@ -1,0 +1,128 @@
+*** Booting Zephyr OS build zephyr-v3.0.0-3581-g99be4358afcc  ***
+Running test suite base
+===================================================================
+START - test_assert
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_assert.cpp:6 (base_test_assert)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_assert.cpp:7 (base_test_assert)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_assert.cpp:8 (base_test_assert)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_assert.cpp:9 (base_test_assert)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_assert.cpp:10 (base_test_assert)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_assert.cpp:11 (base_test_assert)
+ PASS - test_assert in 0.0 seconds
+===================================================================
+Test suite base succeeded
+Running test suite math
+===================================================================
+START - test_add
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:8 (math_test_add)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:9 (math_test_add)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:10 (math_test_add)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:11 (math_test_add)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:12 (math_test_add)
+ PASS - test_add in 0.0 seconds
+===================================================================
+START - test_divide
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:31 (math_test_divide)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:32 (math_test_divide)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:33 (math_test_divide)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:34 (math_test_divide)
+ PASS - test_divide in 0.0 seconds
+===================================================================
+START - test_factorial
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:53 (math_test_factorial)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:54 (math_test_factorial)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:55 (math_test_factorial)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:56 (math_test_factorial)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:57 (math_test_factorial)
+ PASS - test_factorial in 0.0 seconds
+===================================================================
+START - test_modulate
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:38 (math_test_modulate)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:39 (math_test_modulate)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:40 (math_test_modulate)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:41 (math_test_modulate)
+ PASS - test_modulate in 0.0 seconds
+===================================================================
+START - test_multiply
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:23 (math_test_multiply)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:24 (math_test_multiply)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:25 (math_test_multiply)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:26 (math_test_multiply)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:27 (math_test_multiply)
+ PASS - test_multiply in 0.0 seconds
+===================================================================
+START - test_power
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:45 (math_test_power)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:46 (math_test_power)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:47 (math_test_power)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:48 (math_test_power)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:49 (math_test_power)
+ PASS - test_power in 0.0 seconds
+===================================================================
+START - test_subtract
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:16 (math_test_subtract)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:17 (math_test_subtract)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:18 (math_test_subtract)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_math.cpp:19 (math_test_subtract)
+ PASS - test_subtract in 0.0 seconds
+===================================================================
+Test suite math succeeded
+Running test suite mock
+===================================================================
+START - test_stuff
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_mock.cpp:9 (mock_test_stuff)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_mock.cpp:10 (mock_test_stuff)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_mock.cpp:11 (mock_test_stuff)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_mock.cpp:12 (mock_test_stuff)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_mock.cpp:13 (mock_test_stuff)
+
+   Assertion succeeded at WEST_TOPDIR/app/ztest/src/test_mock.cpp:14 (mock_test_stuff)
+ PASS - test_stuff in 0.0 seconds
+===================================================================
+Test suite mock succeeded
+===================================================================
+RunID: c997a81a6febe19f2d20a2f4027a14a6
+PROJECT EXECUTION SUCCESSFUL

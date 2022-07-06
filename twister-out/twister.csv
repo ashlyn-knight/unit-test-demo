@@ -1,0 +1,2 @@
+test,arch,platform,status,extra_args,handler,handler_time,ram_size,rom_size,run_id
+testing.ztest,posix,native_posix,passed,,na,2.026904582977295,0,0,c997a81a6febe19f2d20a2f4027a14a6

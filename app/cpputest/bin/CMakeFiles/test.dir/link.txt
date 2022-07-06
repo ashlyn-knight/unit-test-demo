@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test.dir/home/aknight/zephyrproject/app/src/math.cpp.o CMakeFiles/test.dir/src/main.cpp.o CMakeFiles/test.dir/src/mock.cpp.o CMakeFiles/test.dir/src/test_assert.cpp.o CMakeFiles/test.dir/src/test_math.cpp.o CMakeFiles/test.dir/src/test_mock.cpp.o -o test  -lCppUTest 
